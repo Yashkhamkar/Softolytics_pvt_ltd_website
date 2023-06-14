@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Aladin&family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aladin&family=Alegreya+Sans:wght@300&family=Rouge+Script&display=swap");
+
+
+
+.fancy-text {
+  float: right;
+  text-align: right;
+  width: 100%;
+  font-family: "Rouge Script", cursive;
+  font-size: 50px;
+  color: #bdbbbc;
+  padding-top: 80px;
+}
+
+.section {
+  width: 100%;
+  float: left;
+  min-height: 100vh;
+  position: relative;
+  padding: 100px 0 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.Home {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f8f8f8;
+}
+
+.About {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f8f8f8;
+}
+
+.Contact {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f8f8f8;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+}
+
+.hero-slider-next-button {
+  display: none;
+}
+
+.hero-slider-previous-button {
+  display: none;
+}
+
+.scroll-down-arrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.scroll-down-text {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+/* .scroll-down-arrow img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+.scroll-down-arrow img {
+  border: 2px solid #958e8e;
+  border-radius: 50%;
+  padding: 8px;
+  transition: all 0.2s ease-in-out;
+} */
+.scroll-down-arrow img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  padding: 5px;
+  border: 2px solid #958e8e;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.scroll-down-arrow:hover img {
+  transform: scale(1.2);
+  /* increase image size on hover */
+  padding: 3px;
+  /* increase padding on hover */
+}

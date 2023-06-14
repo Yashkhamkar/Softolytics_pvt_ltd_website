@@ -1,0 +1,159 @@
+.footer-links {
+  width: 100%;
+  float: left;
+  background-color: #05d7c6;
+  padding: 30px 0;
+  /* margin-left: 5rem; */
+}
+
+.service-links {
+  width: 100%;
+  float: left;
+  font-family: "Alegreya";
+}
+.cont {
+  margin-left: 5rem;
+}
+
+.service-links-inner {
+  width: 100%;
+  margin: auto;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.service-link-col {
+  float: left;
+  padding: 10px 0;
+}
+
+.service-link-col a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-right: 1px solid #f2f2f2;
+  display: block;
+  padding: 5px 20px;
+  transition: all 0.5s ease;
+}
+
+.service-link-col:last-child a {
+  border-right: 0;
+}
+
+.service-link-col a:hover {
+  background: #fff;
+  color: #333;
+  transform: scale(1.1);
+}
+
+.page-links {
+  width: 100%;
+  float: left;
+  font-family: "Alegreya";
+  margin-top: 30px;
+}
+
+.page-links-inner {
+  width: 737px;
+  font-family: "Alegreya";
+  max-width: 100%;
+  margin: auto;
+}
+
+.page-link-col {
+  float: left;
+  padding: 10px 0;
+  background: #333;
+}
+
+.page-link-col a {
+  color: #ccc;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  display: block;
+  padding: 5px 40px;
+  border-right: 1px solid #ccc;
+  transition: all 0.5s ease;
+}
+
+.page-link-col:last-child a {
+  border-right: 0 solid;
+}
+
+.page-link-col a:hover {
+  background: #fff;
+  color: #333;
+  transform: scale(1.1);
+}
+
+.links-title {
+  width: 100%;
+  float: left;
+}
+
+.links-title h2 {
+  color: #f3f3f3;
+  text-align: center;
+  display: block;
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-family: "Aladin";
+  margin: 0;
+  padding: 30px 0;
+  padding-top: 0;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.social-link {
+  width: 100%;
+  float: left;
+  margin-top: 15px;
+}
+
+.social-link-col {
+  width: 50px;
+  margin: auto;
+}
+
+.social-link-col a {
+  display: block;
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  width: auto;
+  margin: 7px;
+}
+
+.social-link-col a:hover {
+  color: #333;
+  transform: scale(1.1);
+}
+
+.footer-bottom {
+  background: #1e1e1e;
+  width: 100%;
+  float: left;
+  color: #bbb;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px 0;
+  font-family: "Alegreya";
+  font-size: 14px;
+}
+@media screen and (max-width: 900px) {
+  .cont {
+    margin-left: 0rem;
+  }
+}
